@@ -98,3 +98,11 @@
     display: flex;
   }
 }
+
+/*** HARD TRY PER LA COMPARSA DEL MENù ***/
+
+.dropdown-menu {
+  position: absolute !important;
+  top: 100% !important;
+  left: -145px !important;
+}
