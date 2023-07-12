@@ -6,6 +6,46 @@
   box-sizing: border-box;
   /* background-color: green; */
 }
+
+#gen-container {
+  display: flex;
+}
+
+/*** SIDEBAR ***/
+#sidebar {
+  width: 100px;
+  height: calc(100vh - 90px);
+  margin-left: -5px;
+  margin-bottom: -5px;
+
+  border: 1px dashed red;
+  background-color: #051e34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  display: none;
+}
+
+#sidebar .icons-cont {
+  /* border: 1px dashed rgb(200, 255, 0); */
+  color: white;
+}
+
+#sidebar .icons-cont div:first-child {
+  margin-top: 25px;
+}
+#sidebar .icons-cont div {
+  margin-bottom: 15px;
+}
+
+#sidebar .gear-icon-cont {
+  border: 1px dashed rgb(200, 255, 0);
+  margin-bottom: 15px;
+  color: white;
+}
+
 /*** HIDEBAR ***/
 #hidebar {
   width: 50px;
@@ -21,10 +61,6 @@
   justify-content: space-between;
 
   /* display: none; */
-}
-
-#gen-container {
-  display: flex;
 }
 #hidebar .icons-cont {
   /* border: 1px dashed rgb(200, 255, 0); */
@@ -42,8 +78,6 @@
   margin-bottom: 15px;
 }
 
-/*** SIDE BAR ***/
-
 /*** MAIN-CONTAINER ***/
 #main-container {
   width: calc(100vw - 50px);
@@ -54,13 +88,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  #hidebar {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 992px) {
   #hidebar {
     display: none;
+  }
+  #sidebar {
+    display: flex;
   }
 }
