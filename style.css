@@ -6,7 +6,7 @@
   box-sizing: border-box;
   /* background-color: green; */
 }
-
+/*** HIDEBAR ***/
 #hidebar {
   width: 50px;
   height: calc(100vh - 90px);
@@ -22,7 +22,9 @@
 
   /* display: none; */
 }
-
+#gen-container {
+  display: flex;
+}
 #hidebar .icons-cont {
   /* border: 1px dashed rgb(200, 255, 0); */
 }
@@ -37,4 +39,11 @@
 #hidebar .gear-icon-cont {
   border: 1px dashed rgb(200, 255, 0);
   margin-bottom: 15px;
+}
+
+/*** SIDE BAR ***/
+
+/*** MAIN-CONTAINER ***/
+#main-container {
+  width: calc(100vw - 50px);
 }
