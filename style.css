@@ -78,11 +78,25 @@
   flex-grow: 1;
 }
 
+/*** OFFCANVASS ***/
+
 /*** MEDIA QUERIS ***/
+@media screen and (min-width: 575px) {
+  .offcanvas.offcanvas-end {
+    min-width: 100%;
+  }
+}
+
 @media screen and (min-width: 576px) {
+  .offcanvas.offcanvas-end {
+    min-width: 40%;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .offcanvas.offcanvas-end {
+    min-width: 40%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -91,6 +105,10 @@
   }
   #sidebar {
     display: flex;
+  }
+
+  .offcanvas.offcanvas-end {
+    min-width: 40%;
   }
 }
 
