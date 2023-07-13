@@ -59,9 +59,6 @@
 
   /* display: none; */
 }
-#hidebar .icons-cont {
-  /* border: 1px dashed rgb(200, 255, 0); */
-}
 
 #hidebar .icons-cont div:first-child {
   margin-top: 25px;
