@@ -290,7 +290,7 @@
       <div id="main-container" class="">
 
         <!-- NEW STUDENT SECTION -->
-        <div class="container-fluid pt-2 pb-2 pb-md-3 text-bg-primary">
+        <div class="container-fluid p-0 pb-md-3 text-bg-primary">
           <div class="row flex-md-row-reverse flex-lg-row-reverse align-items-start">
 
             <!-- OFFCANVAS -->
@@ -511,20 +511,26 @@
         </div>
 
         <!--CARDS COLUMN CONTAINER-->
-        <div class="container-fluid pt-2 pb-2">
+        <div class="container-fluid p-0">
           <div
             class="row flex-column flex-sm-column flex-md-column flex-lg-row"
           >
             <!-- 1TH COLUMN - Prossime classi e FAQ -->
             <div class="col col-lg-8">
-              <div class="container box pt-2 pb-2">
+              <div class="container box p-2">
                 <div class="row flex-column gx-1 gy-2">
                   <div class="col box">
-                    PROSSIME c <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                    ipsa nobis animi maiores aperiam, earum minima. Impedit
-                    possimus et voluptatem repellat ducimus. Quasi, blanditiis
-                    aut maxime omnis impedit quibusdam magni?
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-header">
+                        Prossime classi
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        
+                      </ul>
+                    </div>
                   </div>
                   <div class="col box">
                     f.a.q <br />
@@ -537,19 +543,35 @@
                 </div>
               </div>
             </div>
+
             <!-- 2TH COLUMN - TODO E GRAFICO -->
             <div class="col col-lg-4">
-              <div class="container box pt-2 pb-2">
+              <div class="container box p-2">
                 <div class="row flex-column gx-1 gy-2">
+                  <!-- TODO -->
                   <div class="col box">
-                    todo<br />
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque, porro. Debitis recusandae temporibus eos corporis
-                    nostrum laudantium asperiores, sunt quos voluptatum aliquam
-                    deleniti veritatis quod officia magnam officiis possimus
-                    explicabo.
+                    <div class="card " style="width: 100%;">
+                      <div class="card-header">
+                        Todo
+                      </div>
+                      <ul class="list-group" style="margin: 10px;">
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                          <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                          <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe #103</label>
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                          <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="col box">
+                  <!-- GRAFICO -->
+                  <div class="col box ">
                     grafico<br />Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Est modi, ipsa placeat saepe provident
                     libero qui harum quia earum officia quaerat non at molestiae
