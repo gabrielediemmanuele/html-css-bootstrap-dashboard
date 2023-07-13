@@ -1,5 +1,4 @@
 .box {
-  padding: 5px;
   border: 2px dashed rgb(255, 0, 0);
   /* text-align: center; */
   /* color: white; */
@@ -14,7 +13,7 @@
 /*** SIDEBAR ***/
 #sidebar {
   width: 100px;
-  height: calc(100vh - 76px);
+  height: calc(100vh - 72px);
 
   border: 1px dashed red;
   background-color: #051e34;
@@ -46,7 +45,7 @@
 
 /*** HIDEBAR ***/
 #hidebar {
-  width: 50px;
+  min-width: 50px;
   height: calc(100vh - 76px);
 
   border: 1px dashed red;
@@ -76,9 +75,8 @@
 
 /*** MAIN-CONTAINER ***/
 #main-container {
-  width: calc(100vw - 50px);
+  flex-grow: 1;
 }
-
 /*** MEDIA QUERIS ***/
 @media screen and (min-width: 576px) {
 }
