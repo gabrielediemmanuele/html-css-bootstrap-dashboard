@@ -80,6 +80,9 @@
   flex-grow: 1;
 }
 
+.accordion-item .accordion-header {
+  font-size: 10px !important;
+}
 /***Boolean and Badges ***/
 #badge {
   background-color: #165bba;
