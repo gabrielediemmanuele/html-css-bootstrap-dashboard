@@ -290,10 +290,10 @@
       <div id="main-container" class="">
 
         <!-- NEW STUDENT SECTION -->
-        <div class="container-fluid pt-1 pb-1 text-bg-primary">
-          <div class="row flex-md-row-reverse flex-lg-row-reverse align-items-center">
+        <div class="container-fluid pt-2 pb-2 pb-md-3 text-bg-primary">
+          <div class="row flex-md-row-reverse flex-lg-row-reverse align-items-start">
             <!-- OFFCANVAS -->
-            <div class="col-12 col-md-4 box">
+            <div class="col-12 col-md-4 col-lg-3 ">
               <span>Nuovo Studente</span>
               <button
                 class="btn btn-primary"
@@ -405,21 +405,36 @@
               </div>
             </div>
             <!--BOOLEAN AND BADGES-->
-            <div class="col-12 col-md-4 order-md-1 box">
-              <div class="container d-flex align-items-center">
+            <div class="col-12 col-md-4 col-lg-6 order-md-1">
+              <div class="container p-0 d-flex align-items-center">
                 <h3>Boolean</h3>
                 <span id="badge">Piano blaze</span>
               </div>
-
-              <div class="container d-flex align-items-center">
+              <!--MOBILE AND TABLE-->
+              <div class="container p-0 d-flex d-lg-none pb-1 align-items-center">
                 <span id="badge">3 app</span>
-
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
                 <span id="badge" style="font-weight: bold;">+</span>
+              </div>
+              <!-- DESKTOP -->
+              <div class="container p-0 d-none d-lg-flex pb-1 align-items-center">
+                <span id="badge">3 app</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <span id="badge" style="font-weight: bold;">Boolean mobile app</span>
+                <span id="badge" style="font-weight: bold;">Boolean web app</span>
+                <span id="badge" style="font-weight: bold;">Boolean blog app</span>
               </div>
             </div>
             <!--STUDENTS-->
-            <div class="col-12 col-md-4 box">
-              Studenti online negli ultimi 30min
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="container p-0 fs-6">Studenti online negli ultimi 30 min</div>
+              <div class="container p-0 fs-3">125</div>
             </div>
           </div>
         </div>
