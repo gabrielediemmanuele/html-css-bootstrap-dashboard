@@ -292,7 +292,9 @@
         <!-- NEW STUDENT SECTION -->
         <div class="container-fluid pt-2 pb-2 pb-md-3 text-bg-primary">
           <div class="row flex-md-row-reverse flex-lg-row-reverse align-items-start">
+
             <!-- OFFCANVAS -->
+            <!-- OFFCANVAS BUTTON ESTERNO -->
             <div class="col-12 col-md-4 col-lg-3 ">
               <span>Nuovo Studente</span>
               <button
@@ -302,7 +304,7 @@
                 data-bs-target="#offcanvasRight"
                 aria-controls="offcanvasRight"
               >
-                <!-- Button plus -->
+                <!-- Button plus SVG-->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -319,6 +321,8 @@
                   />
                 </svg>
               </button>
+
+              <!--OFFCANVAS INTERNO-->
               <div
                 class="offcanvas offcanvas-end"
                 tabindex="-1"
@@ -343,20 +347,21 @@
                   method="post">
                     <div class="container">
                       <div class="row gy-2 gx-3">
+                        <!-- NAME -->
                         <div class="col-12 col-md-6">
                           <div>
                             <div><label for="Nome">Nome</label></div>
                             <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" aria-describedby="addon-wrapping">
                           </div>
                         </div>
-
+                        <!-- SURNAME -->
                         <div class="col-12 col-md-6">
                           <div>
                             <div><label for="Cognome">Cognome</label></div>
                             <input type="text" class="form-control" placeholder="Cognome" aria-label="Cognome" aria-describedby="addon-wrapping">
                           </div>
                         </div>
-
+                        <!-- EMAIL -->
                         <div class="col-12 col-md-6">
                           <label for="Email">Email</label>
                           <div class="input-group mb-3">
@@ -372,14 +377,14 @@
                             />
                           </div>
                         </div>
-
+                        <!-- PASSWORD 1 -->
                         <div class="col-12 col-md-6">
                           <div>
                             <div><label for="Password">Password</label></div>
                             <input type="password" class="form-control" placeholder="" aria-label="Password" aria-describedby="addon-wrapping">
                           </div>
                         </div>
-
+                        <!-- EMAIL 2 -->
                         <div class="col-12 col-md-6">
                           <label for="Email">Indirizzo Email</label>
                           <div class="input-group mb-3">
@@ -395,27 +400,28 @@
                             />
                           </div>
                         </div>
-
+                        <!-- PASSWORD 2 -->
                         <div class="col-12 col-md-6">
                           <div>
                             <div><label for="Password">Password</label></div>
                             <input type="password" class="form-control" placeholder="" aria-label="Password" aria-describedby="addon-wrapping">
                           </div>
                         </div>
-
+                        <!-- INDIRIZZO -->
                         <div class="col-12">
                           <div>
                             <div><label for="Indirizzo">Indirizzo</label></div>
                             <input type="text" class="form-control" placeholder="" aria-label="Indirizzo" aria-describedby="addon-wrapping">
                           </div>
                         </div>
-
+                        <!-- CITTA' -->
                         <div class="col-6">
                           <div>
                             <div><label for="Città">Città</label></div>
                             <input type="text" class="form-control" placeholder="" aria-label="Città" aria-describedby="addon-wrapping">
                           </div>
                         </div>
+                        <!-- STATO -->
                         <div class="col-4">
                           <label for="Stato">Stato</label>
                           <div class="input-group mb-3">
@@ -433,20 +439,21 @@
                             </select>
                           </div>
                         </div>
+                        <!-- CAP -->
                         <div class="col-2">
                           <div>
                             <div><label for="Cap">Cap</label></div>
                             <input type="text" class="form-control" placeholder="" aria-label="Cap" aria-describedby="addon-wrapping">
                           </div>
                         </div>
-
+                        <!-- FOTO -->
                         <div class="col-12">
                           <label for="Foto">Foto</label>
                           <div class="input-group mb-3">
                             <input type="file" class="form-control" id="inputGroupFile02">
                           </div>
                         </div>
-
+                        <!-- CHECKBOX -->
                         <div class="col-12">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
@@ -455,6 +462,7 @@
                             </label>
                           </div>
                         </div>
+                        <!-- BUTTONS -->
                         <div class="col-12">
                           <button type="button" class="btn btn-primary btn-sm">Salva</button>
                           <button type="button" class="btn btn-warning btn-sm">Svuota</button>
@@ -465,6 +473,7 @@
                 </div>
               </div>
             </div>
+
             <!--BOOLEAN AND BADGES-->
             <div class="col-12 col-md-4 col-lg-6 order-md-1">
               <div class="container p-0 d-flex align-items-center">
@@ -492,6 +501,7 @@
                 <span id="badge" style="font-weight: bold;">Boolean blog app</span>
               </div>
             </div>
+
             <!--STUDENTS-->
             <div class="col-12 col-md-4 col-lg-3">
               <div class="container p-0 fs-6">Studenti online negli ultimi 30 min</div>
