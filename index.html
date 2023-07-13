@@ -287,10 +287,11 @@
       </div>
 
       <!-- MAIN CONTENT CONTAINER -->
-      <div id="main-container" class="box">
+      <div id="main-container" class="">
+
         <!-- NEW STUDENT SECTION -->
         <div class="container-fluid pt-1 pb-1 text-bg-primary">
-          <div class="row flex-md-row-reverse flex-lg-row-reverse">
+          <div class="row flex-md-row-reverse flex-lg-row-reverse align-items-center">
             <!-- OFFCANVAS -->
             <div class="col-12 col-md-4 box">
               <span>Nuovo Studente</span>
@@ -404,7 +405,18 @@
               </div>
             </div>
             <!--BOOLEAN AND BADGES-->
-            <div class="col-12 col-md-4 order-md-1 box">Boolean</div>
+            <div class="col-12 col-md-4 order-md-1 box">
+              <div class="container d-flex align-items-center">
+                <h3>Boolean</h3>
+                <span id="badge">Piano blaze</span>
+              </div>
+
+              <div class="container d-flex align-items-center">
+                <span id="badge">3 app</span>
+
+                <span id="badge" style="font-weight: bold;">+</span>
+              </div>
+            </div>
             <!--STUDENTS-->
             <div class="col-12 col-md-4 box">
               Studenti online negli ultimi 30min
@@ -413,7 +425,7 @@
         </div>
 
         <!--CARDS COLUMN CONTAINER-->
-        <div class="container-fluid pt-2 pb-2 box">
+        <div class="container-fluid pt-2 pb-2">
           <div
             class="row flex-column flex-sm-column flex-md-column flex-lg-row"
           >

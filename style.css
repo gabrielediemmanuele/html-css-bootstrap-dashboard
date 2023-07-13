@@ -78,6 +78,15 @@
   flex-grow: 1;
 }
 
+/***Boolean and Badges ***/
+#badge {
+  background-color: #165bba;
+  margin: 0 5px;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 15px;
+}
+
 /*** OFFCANVAS ***/
 
 /*** MEDIA QUERIS ***/
