@@ -14,9 +14,7 @@
 /*** SIDEBAR ***/
 #sidebar {
   width: 100px;
-  height: calc(100vh - 90px);
-  margin-left: -5px;
-  margin-bottom: -5px;
+  height: calc(100vh - 76px);
 
   border: 1px dashed red;
   background-color: #051e34;

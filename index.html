@@ -31,302 +31,325 @@
   </head>
 
   <body>
-    <!-- GLOBAL CONTAINER -->
-    <div class="container-fluid box">
-      <!-- HEADER // NAV  CONTAINER -->
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <!-- LOGO Piccolo-->
-          <a class="navbar-brand d-lg-none" href="#"
-            ><img src="./img/mobile-logo.png" alt="boolean" width="50"
-          /></a>
-          <!-- Logo Grande  -->
-          <a class="navbar-brand d-none d-lg-inline-block" href="#"
-            ><img src="./img/logo.svg" alt="boolean" width="100"
-          /></a>
-          <!-- SERCH BAR-->
-          <form class="d-flex flex-grow-1" role="search">
-            <input
-              class="form-control me-3"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
-          <!-- Lista -->
-          <div class="navbar-nav" id="navbarSupportedContent">
-            <ul class="list-unstyled d-flex">
-              <!--DOT LIST ICON-->
-              <li class="nav-item d-none d-lg-inline-block">
-                <a class="nav-link active me-2" aria-current="page" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-list-ul"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <!-- info -->
-              <li class="nav-item d-none d-lg-inline-block">
-                <a class="nav-link me-2" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-question-circle-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"
-                    />
-                  </svg>
-                </a>
-              </li>
-
-              <!-- 3 DOTS -->
-              <li class="nav-item d-none d-lg-inline-block">
-                <a class="nav-link me-2" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-three-dots-vertical"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
-                    />
-                  </svg>
-                </a>
-              </li>
-
-              <!-- campanella -->
-              <!-- dropdown-toggle -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+    <!-- HEADER // NAV  CONTAINER -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <!-- LOGO Piccolo-->
+        <a class="navbar-brand d-lg-none" href="#"
+          ><img src="./img/mobile-logo.png" alt="boolean" width="50"
+        /></a>
+        <!-- Logo Grande  -->
+        <a class="navbar-brand d-none d-lg-inline-block" href="#"
+          ><img src="./img/logo.svg" alt="boolean" width="100"
+        /></a>
+        <!-- SERCH BAR-->
+        <form class="d-flex flex-grow-1" role="search">
+          <input
+            class="form-control me-3"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+        <!-- Lista -->
+        <div class="navbar-nav" id="navbarSupportedContent">
+          <ul class="list-unstyled d-flex">
+            <!--DOT LIST ICON-->
+            <li class="nav-item d-none d-lg-inline-block">
+              <a class="nav-link active me-2" aria-current="page" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-list-ul"
+                  viewBox="0 0 16 16"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="orange"
-                    class="bi bi-bell-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
-                    />
-                  </svg>
-                </a>
-                <!-- dropdown menù-->
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Maledetto</a></li>
-                  <li><a class="dropdown-item" href="#">Menù</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">A comparsa</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+                  <path
+                    fill-rule="evenodd"
+                    d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <!-- info -->
+            <li class="nav-item d-none d-lg-inline-block">
+              <a class="nav-link me-2" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-question-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <!-- 3 DOTS -->
+            <li class="nav-item d-none d-lg-inline-block">
+              <a class="nav-link me-2" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-three-dots-vertical"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <!-- campanella -->
+            <!-- dropdown-toggle -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="orange"
+                  class="bi bi-bell-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                  />
+                </svg>
+              </a>
+              <!-- dropdown menù-->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Maledetto</a></li>
+                <li><a class="dropdown-item" href="#">Menù</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">A comparsa</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- GENERAL CONTAINER -->
+    <div id="gen-container">
+      <!-- SIDEBAR CONTAINER -->
+      <div id="sidebar">
+        <div class="icons-cont">
+          <!--house icon-->
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-house-door-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+              />
+            </svg>
+            <span>Home</span>
+          </div>
+          <!-- bars -->
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-bar-chart-steps"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0zM2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1z"
+              />
+            </svg>
+            <span>Stats</span>
+          </div>
+          <!-- signal icon-->
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-reception-4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z"
+              />
+            </svg>
+            <span>Signals</span>
           </div>
         </div>
-      </nav>
+        <div class="gear-icon-cont">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-gear-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+              />
+            </svg>
+            <span>Admin</span>
+          </div>
+        </div>
+      </div>
 
-      <!-- GENERAL CONTAINER -->
-      <div id="gen-container">
+      <!-- HIDEBAR CONTAINER (media query ???) -->
+      <div id="hidebar">
+        <div class="icons-cont">
+          <!--house icon-->
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-house-door-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+              />
+            </svg>
+          </div>
+          <!-- bars -->
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-bar-chart-steps"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0zM2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1z"
+              />
+            </svg>
+          </div>
+          <!-- signal icon-->
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-reception-4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="gear-icon-cont">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-gear-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
 
-        <!-- SIDEBAR CONTAINER -->
-        <div id="sidebar">
-            <div class="icons-cont">
-                <!--house icon-->
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    fill="white"
-                    class="bi bi-house-door-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
-                    />
-                  </svg>
-                  <span>Home</span>
-                </div>
-                <!-- bars -->
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    fill="white"
-                    class="bi bi-bar-chart-steps"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0zM2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1z"
-                    />
-                  </svg>
-                  <span>Stats</span>
-                </div>
-                <!-- signal icon-->
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    fill="white"
-                    class="bi bi-reception-4"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z"
-                    />
-                  </svg>
-                  <span>Signals</span>
+      <!-- MAIN CONTENT CONTAINER -->
+      <div id="main-container" class="box">
+        <!-- NEW STUDENT SECTION -->
+        <div class="container-fluid text-bg-primary">
+          <div class="row flex-md-row-reverse flex-lg-row-reverse">
+            <div class="col-12 col-md-4 box">Nuovo Studente +</div>
+            <div class="col-12 col-md-4 order-md-1 box">Boolean</div>
+            <div class="col-12 col-md-4 box">
+              Studenti online negli ultimi 30min
+            </div>
+          </div>
+        </div>
+
+        <!--CARDS COLUMN CONTAINER-->
+        <div class="container box">
+          <div
+            class="row flex-column flex-sm-column flex-md-column flex-lg-row"
+          >
+            <!-- 1TH COLUMN - Prossime classi e FAQ -->
+            <div class="col col-lg-8">
+              <div class="container box">
+                <div class="row flex-column">
+                  <div class="col box">
+                    PROSSIME c <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    ipsa nobis animi maiores aperiam, earum minima. Impedit
+                    possimus et voluptatem repellat ducimus. Quasi, blanditiis
+                    aut maxime omnis impedit quibusdam magni?
+                  </div>
+                  <div class="col box">
+                    f.a.q <br />
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Error distinctio perspiciatis qui quidem, cumque quis
+                    laudantium officiis sequi suscipit. Accusantium sequi
+                    eligendi ratione corporis, minus eius ullam iusto optio
+                    nostrum!
+                  </div>
                 </div>
               </div>
-              <div class="gear-icon-cont">
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    fill="white"
-                    class="bi bi-gear-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
-                    />
-                  </svg>
-                  <span>Admin</span>
+            </div>
+            <!-- 2TH COLUMN - TODO E GRAFICO -->
+            <div class="col col-lg-4">
+              <div class="container box">
+                <div class="row flex-column">
+                  <div class="col box">
+                    todo<br />
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Atque, porro. Debitis recusandae temporibus eos corporis
+                    nostrum laudantium asperiores, sunt quos voluptatum aliquam
+                    deleniti veritatis quod officia magnam officiis possimus
+                    explicabo.
+                  </div>
+                  <div class="col box">
+                    grafico<br />Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Est modi, ipsa placeat saepe provident
+                    libero qui harum quia earum officia quaerat non at molestiae
+                    unde neque quisquam dolorem. Incidunt, sit?
+                  </div>
                 </div>
               </div>
-
-        </div>
-        
-        <!-- HIDEBAR CONTAINER (media query ???) -->
-        <div id="hidebar">
-          <div class="icons-cont">
-            <!--house icon-->
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="white"
-                class="bi bi-house-door-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
-                />
-              </svg>
-            </div>
-            <!-- bars -->
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="white"
-                class="bi bi-bar-chart-steps"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0zM2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1z"
-                />
-              </svg>
-            </div>
-            <!-- signal icon-->
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="white"
-                class="bi bi-reception-4"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="gear-icon-cont">
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="white"
-                class="bi bi-gear-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
-                />
-              </svg>
             </div>
           </div>
         </div>
-
-        <!-- MAIN CONTENT CONTAINER -->
-        <div id="main-container" class="box">
-
-          <!-- NEW STUDENT SECTION -->
-          <div class="container-fluid text-bg-primary">
-            <div class="row flex-md-row-reverse flex-lg-row-reverse">
-              <div class="col-12 col-md-4 box">Nuovo Studente +</div>
-              <div class="col-12 col-md-4 order-md-1 box">Boolean</div>
-              <div class="col-12 col-md-4 box">Studenti online negli ultimi 30min</div>
-            </div>
-          </div>
-
-          <!--CARDS COLUMN CONTAINER-->
-            <div class="container box">
-                <div class="row flex-column flex-sm-column flex-md-column flex-lg-row">
-                    <!-- 1TH COLUMN - Prossime classi e FAQ -->
-                    <div class="col col-lg-8">
-                        <div class="container box">
-                            <div class="row flex-column">
-                                <div class="col box">PROSSIME c <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa nobis animi maiores aperiam, earum minima. Impedit possimus et voluptatem repellat ducimus. Quasi, blanditiis aut maxime omnis impedit quibusdam magni?</div>
-                                <div class="col box"> f.a.q <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error distinctio perspiciatis qui quidem, cumque quis laudantium officiis sequi suscipit. Accusantium sequi eligendi ratione corporis, minus eius ullam iusto optio nostrum!</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 2TH COLUMN - TODO E GRAFICO -->
-                    <div class="col col-lg-4">
-                        <div class="container box">
-                            <div class="row flex-column">
-                                <div class="col box">todo<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, porro. Debitis recusandae temporibus eos corporis nostrum laudantium asperiores, sunt quos voluptatum aliquam deleniti veritatis quod officia magnam officiis possimus explicabo.</div>
-                                <div class="col box">grafico<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est modi, ipsa placeat saepe provident libero qui harum quia earum officia quaerat non at molestiae unde neque quisquam dolorem. Incidunt, sit?
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
     <!-- LINK JavaScript -->
     <script
