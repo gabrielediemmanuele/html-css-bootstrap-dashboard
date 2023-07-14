@@ -85,7 +85,7 @@
 #badge {
   background-color: #165bba;
   margin: 0 5px;
-  font-size: 12px;
+  font-size: 10px;
   padding: 2px 8px;
   border-radius: 15px;
 }
@@ -102,9 +102,15 @@
   border-radius: 50%;
 }
 /*** MEDIA QUERIS ***/
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 200px) {
   .offcanvas.offcanvas-end {
     min-width: 100%;
+  }
+
+  #main-container {
+    width: calc(100% - 50px);
+    height: calc(100vh - 76px);
+    overflow-y: auto;
   }
 }
 
@@ -130,6 +136,11 @@
 
   .offcanvas.offcanvas-end {
     min-width: 50%;
+  }
+  #main-container {
+    width: calc(100% - 100px);
+    height: calc(100vh - 76px);
+    overflow-y: auto;
   }
 }
 
