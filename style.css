@@ -80,6 +80,7 @@
 .accordion-item .accordion-header {
   font-size: 10px !important;
 }
+
 /***Boolean and Badges ***/
 #badge {
   background-color: #165bba;
@@ -94,7 +95,14 @@
 .list-group .list-group-item {
   font-size: 10px;
 }
-
+.table {
+  box-sizing: border-box;
+}
+#codeslash {
+  background-color: #f26551;
+  padding: 5px;
+  border-radius: 50%;
+}
 /*** MEDIA QUERIS ***/
 @media screen and (min-width: 575px) {
   .offcanvas.offcanvas-end {
