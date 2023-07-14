@@ -104,7 +104,7 @@
 /*** MEDIA QUERIS ***/
 @media screen and (min-width: 200px) {
   .offcanvas.offcanvas-end {
-    min-width: 100%;
+    min-width: 80%;
   }
 
   #main-container {
