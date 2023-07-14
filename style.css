@@ -77,6 +77,9 @@
   flex-grow: 1;
 }
 
+#booleancont {
+  width: 100%;
+}
 .accordion-item .accordion-header {
   font-size: 10px !important;
 }
